@@ -3,39 +3,144 @@ body {
 }
 
 .nav-container {
+  /* border: 1px solid blue; */
   display: flex;
   justify-content: space-between;
-  background: #fff;
-  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.05);
 }
 
 .nav-title {
-  color: #0b0223;
+  /* border: 1px solid white; */
+  display: flex;
+  padding-left: 100px;
+}
+
+.nav-title img {
+  /* border: 1px solid #ff42a5; */
+  /* width: 100px; */
+  /* object-fit: contain; */
+  /* font-size: 30px; */
+  margin-top: 30px;
+}
+
+.nav-title p {
   font-size: 30px;
-  font-weight: 700;
-  padding-left: 50px;
-}
-
-.nav-links {
-  padding: 47px;
-  margin-right: 30px;
-  list-style: none;
-}
-
-.nav-link {
-  color: #3c354f;
-  text-decoration: none;
-  font-weight: 500;
-  padding: 18px;
+  /* border: 1px solid white; */
+  margin-left: 10px;
+  font-weight: 900;
 }
 
 .nav-primary {
   color: #ff42a5;
 }
 
-.banner-conainer {
+.nav-links {
+  display: flex;
+  font-size: 15px;
+  /* padding: 47px; */
+  /* margin-right: 30px; */
+  /* list-style: none; */
+  margin-top: 50px;
+  padding-right: 40px;
+}
+
+.nav-link {
+  color: #3c354f;
+  text-decoration: none;
+  font-weight: 500;
+  /* padding: 18px; */
+  margin-right: 10px;
+}
+
+.nav-link-social {
+  background-color: rgba(11, 2, 35, 0.1);
+  padding: 14px 10px;
+}
+
+.banner {
+  /* width: 400px; */
+  /* margin: 50px 0px 50px 0px; */
+  display: flex;
+  /* height: 400px; */
+}
+
+.banner-title {
+  text-align: center;
+  width: 900px;
+  /* padding-left: 40px; */
+  /* align-items: center; */
+  background-image: url(../images/Group\ 14.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-bottom: 12px;
+}
+
+.banner-title-one {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.banner-title-two {
+  font-size: 90px;
+  font-weight: 900;
+  background: -webkit-linear-gradient(180deg, #f948b2, #8758f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .banner-title p {
+  width: 450px;
+  font-size: 20px;
+} */
+
+.banner-image {
+  /* width: 300px; */
 }
 
 .banner-icon {
   display: flex;
+}
+
+.banner-button {
+  /* justify-content: space-between; */
+  /* padding: 15px 20px; */
+  gap: 10px;
+  width: 400;
+  font-weight: 500;
+}
+
+.banner-button button-1 {
+  border: none;
+}
+
+.games {
+  margin-top: 150px;
+}
+
+.games-title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.games-primary {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.games-description {
+  color: #534c64;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.games-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  gap: 10px;
 }
