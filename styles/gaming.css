@@ -113,7 +113,7 @@ body {
 }
 
 .games {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .games-title {
@@ -143,4 +143,33 @@ body {
   text-align: center;
   margin-top: 40px;
   gap: 10px;
+}
+
+.player {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: center;
+  align-items: center;
+}
+
+.player-primary {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.player-description {
+  color: #534c64;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
 }
