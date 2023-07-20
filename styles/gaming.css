@@ -43,6 +43,7 @@ body {
 .nav-link-social {
   display: flex;
   gap: 10px;
+  padding-left: 10px;
 }
 
 .nav-link-yt {
@@ -79,10 +80,6 @@ body {
   background: -webkit-linear-gradient(180deg, #f948b2, #8758f1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.banner-icon {
-  display: flex;
 }
 
 .banner-button {
