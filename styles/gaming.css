@@ -152,11 +152,13 @@ body {
 }
 
 .player-title {
-  font-size: 28px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 35px;
-  text-align: center;
-  align-items: center;
+  text-align: right;
+  margin: auto;
+  font-weight: 800;
+  padding-bottom: 400px;
 }
 
 .player-primary {
@@ -170,6 +172,61 @@ body {
   color: #534c64;
   text-align: right;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 20px;
+}
+
+.player-image {
+  height: 100%;
+}
+
+.the-talking-angela {
+  border-radius: 5px solid #ffffff;
+  border: 10px solid #fff;
+  background: url(<path-to-image>),
+    lightgray 0px -0.304px / 100% 117.229% no-repeat;
+  width: 30px;
+  position: relative;
+  bottom: 300px;
+}
+
+.career {
+  margin-top: 50px;
+  display: flex;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  justify-content: space-between;
+}
+
+.career-title {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-left: 20px;
+  background-position: top;
+  /* margin-bottom: 30px; */
+}
+
+.career-primary {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.career-description {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.career-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.career-list-two {
+  padding-right: 15px;
+}
+
+.career-image {
+  width: 60%;
 }
