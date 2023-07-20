@@ -3,28 +3,21 @@ body {
 }
 
 .nav-container {
-  /* border: 1px solid blue; */
   display: flex;
   justify-content: space-between;
 }
 
 .nav-title {
-  /* border: 1px solid white; */
   display: flex;
   padding-left: 100px;
 }
 
 .nav-title img {
-  /* border: 1px solid #ff42a5; */
-  /* width: 100px; */
-  /* object-fit: contain; */
-  /* font-size: 30px; */
   margin-top: 30px;
 }
 
 .nav-title p {
   font-size: 30px;
-  /* border: 1px solid white; */
   margin-left: 10px;
   font-weight: 900;
 }
@@ -36,9 +29,6 @@ body {
 .nav-links {
   display: flex;
   font-size: 15px;
-  /* padding: 47px; */
-  /* margin-right: 30px; */
-  /* list-style: none; */
   margin-top: 50px;
   padding-right: 40px;
 }
@@ -47,27 +37,31 @@ body {
   color: #3c354f;
   text-decoration: none;
   font-weight: 500;
-  /* padding: 18px; */
   margin-right: 10px;
 }
 
 .nav-link-social {
-  background-color: rgba(11, 2, 35, 0.1);
-  padding: 14px 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-link-yt {
+  width: 25px;
+}
+
+.nav-link-tiktok {
+  width: 25px;
 }
 
 .banner {
-  /* width: 400px; */
-  /* margin: 50px 0px 50px 0px; */
   display: flex;
-  /* height: 400px; */
 }
 
 .banner-title {
   text-align: center;
   width: 900px;
-  /* padding-left: 40px; */
-  /* align-items: center; */
+  padding-top: 70px;
+
   background-image: url(../images/Group\ 14.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -87,29 +81,29 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-/* .banner-title p {
-  width: 450px;
-  font-size: 20px;
-} */
-
-.banner-image {
-  /* width: 300px; */
-}
-
 .banner-icon {
   display: flex;
 }
 
 .banner-button {
-  /* justify-content: space-between; */
-  /* padding: 15px 20px; */
-  gap: 10px;
   width: 400;
   font-weight: 500;
 }
 
-.banner-button button-1 {
+.button-1 {
   border: none;
+  border-radius: 38px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  font-size: 15px;
+  padding: 12px 15px;
+}
+
+.button-2 {
+  border: none;
+  border-radius: 38px;
+  background: #4ec5f7;
+  font-size: 15px;
+  padding: 12px 15px;
 }
 
 .games {
@@ -204,7 +198,7 @@ body {
   line-height: 30px;
   padding-left: 20px;
   background-position: top;
-  /* margin-bottom: 30px; */
+  padding-top: 50px;
 }
 
 .career-primary {
@@ -227,6 +221,83 @@ body {
   padding-right: 15px;
 }
 
+.career-button {
+  border: none;
+  padding: 15px 30px;
+  border-radius: 28px;
+  background: #fff;
+}
+
 .career-image {
   width: 60%;
+}
+
+.footer-container {
+  background: #0b0223;
+}
+
+.footer-title {
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+
+.footer-title img {
+  margin-top: 30px;
+}
+
+.footer-title p {
+  font-size: 30px;
+
+  margin-left: 10px;
+  font-weight: 900;
+}
+
+.footer-primary {
+  color: #ff42a5;
+}
+
+.footer-choice {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.footer-choice p {
+  padding: 0 30px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+
+.footer-policy {
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+.footer-policy p {
+  padding: 0 40px;
+}
+
+.footer-secured {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 8px;
+  padding-bottom: 80px;
 }
